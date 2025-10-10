@@ -111,13 +111,13 @@
 ## Phase 3: Frontend Development
 ### 9. Hacker-Style User Interface
 
-* **[ ] Create simple HTML templates using Jinja2 in Python/Flask for:**
+* [ ] **Create simple HTML templates using Jinja2 in Python/Flask for:**
 
 * The main page with a list of posts.
 
 * The single post page.
 
-* **[ ] Add CSS styles to give the site a terminal/Matrix look (dark background, green monospace font, text-shadow effects, scanlines, etc.).**
+* [ ] **Add CSS styles to give the site a terminal/Matrix look (dark background, green monospace font, text-shadow effects, scanlines, etc.).**
 
 ---
 
