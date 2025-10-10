@@ -43,15 +43,15 @@
 
 * [x] **Create a dedicated system user for the application.**
 
-* [ ] **Configure Web Server Module (Apache):**
+* [x] **Configure Web Server Module (Apache):**
 
-* [ ] Create a virtual host for the application's domain.
+* [x] Create a virtual host for the application's domain.
 
-* [ ] Install and Configure Database Module:
+* [x] Install and Configure Database Module:
 
-* [ ] Create an empty MariaDB database for the application.
+* [x] Create an empty MariaDB database for the application.
 
-* [ ] Create a database user with a password and grant it permissions to that database.
+* [x] Create a database user with a password and grant it permissions to that database.
 
 * [ ] **Configure Firewall Module:**
 
