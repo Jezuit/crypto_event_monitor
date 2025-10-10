@@ -45,101 +45,101 @@
 
 **[ ] Configure Web Server Module (Apache):**
 
-**[ ] Create a virtual host for the application's domain.**
+* [ ] Create a virtual host for the application's domain.
 
-**[ ] Install and Configure Database Module:**
+* [ ] Install and Configure Database Module:
 
-**[ ] Create an empty MariaDB database for the application.**
+* [ ] Create an empty MariaDB database for the application.
 
-**[ ] Create a database user with a password and grant it permissions to that database.**
+* [ ] Create a database user with a password and grant it permissions to that database.
 
 **[ ] Configure Firewall Module:**
 
-**[ ] Allow traffic on HTTP (80) and HTTPS (443) ports so people can access the site.**
+* [ ] Allow traffic on HTTP (80) and HTTPS (443) ports so people can access the site.
 
 **[ ] Install necessary software on the server:**
 
-**[ ] Install Python.**
+* [ ] Install Python.
 
-**[ ] Install pip.**
+* [ ] Install pip.
 
 ### 3. Development Environment Setup
 
-**[ ] Initialize a Git repository.**
+* [ ] Initialize a Git repository.
 
-**[ ] Create a virtual environment for the Python project (venv) to keep project dependencies isolated from the system.**
+* [ ] Create a virtual environment for the Python project (venv) to keep project dependencies isolated from the system.
 
-**[ ] Install initial project dependencies (pip install Flask).**
+* [ ] Install initial project dependencies (pip install Flask).
 
 ---
 
 ## Phase 2: Backend Development
 ### 4. Database Design and Implementation
 
-**[ ] Design the database schema (a simple posts table with columns: id, title, content, created_at will suffice).**
+* [ ] Design the database schema (a simple posts table with columns: id, title, content, created_at will suffice).
 
-**[ ] Create data models in the application code (SQLAlchemy) or simple functions to connect to the database.**
+* [ ] Create data models in the application code (SQLAlchemy) or simple functions to connect to the database.
 
-**[ ] Write a script that creates the table in the database.**
+* [ ] Write a script that creates the table in the database.
 
 ### 5. Core Blog Application
 
-**[ ] Implement logic to read posts from the database.**
+* [ ] Implement logic to read posts from the database.
 
-**[ ] Create the main view/page that displays a list of posts.**
+* [ ] Create the main view/page that displays a list of posts.
 
-**[ ] Create a view that displays a single, full post.**
+* [ ] Create a view that displays a single, full post.
 
 ### 6. Integration with External Data Sources and AI
 
-**[ ] Write a Python script that fetches data from APIs (price from CoinGecko and news from NewsAPI).**
+* [ ] Write a Python script that fetches data from APIs (price from CoinGecko and news from NewsAPI).
 
-**[ ] Write a function that sends this data to the Gemini API with a request to generate a post.**
+* [ ] Write a function that sends this data to the Gemini API with a request to generate a post.
 
-**[ ] Write the logic that saves the response from the AI to your database as a new post.**
+* [ ] Write the logic that saves the response from the AI to your database as a new post.
 
 ### 7. Notification System
 
-**[ ] (This point will be realized by displaying new posts on the main page).**
+* [ ] (This point will be realized by displaying new posts on the main page).
 
 ### 8. Task Automation
 
-**[ ] Configure cron on the server – a program that allows for automatic script execution (e.g., every hour) to search for news and create new posts.**
+* [ ] Configure cron on the server – a program that allows for automatic script execution (e.g., every hour) to search for news and create new posts.
 
 ---
 
 ## Phase 3: Frontend Development
 ### 9. Hacker-Style User Interface
 
-**[ ] Create simple HTML templates using Jinja2 in Python/Flask for:**
+* **[ ] Create simple HTML templates using Jinja2 in Python/Flask for:**
 
-The main page with a list of posts.
+* The main page with a list of posts.
 
-The single post page.
+* The single post page.
 
-**[ ] Add CSS styles to give the site a terminal/Matrix look (dark background, green monospace font, text-shadow effects, scanlines, etc.).**
+* **[ ] Add CSS styles to give the site a terminal/Matrix look (dark background, green monospace font, text-shadow effects, scanlines, etc.).**
 
 ---
 
 ## Phase 4: Deployment and Maintenance
 ### 10. Deploying the Application on Zentyal Server
 
-**[ ] Configure an application server (Gunicorn) that will act as a "bridge" between the Apache server and the Python application.**
+* [ ] Configure an application server (Gunicorn) that will act as a "bridge" between the Apache server and the Python application.
 
-**[ ] Configure Apache in Zentyal as a reverse proxy that forwards traffic from the domain to Gunicorn.**
+* [ ] Configure Apache in Zentyal as a reverse proxy that forwards traffic from the domain to Gunicorn.
 
-**[ ] Secure the connection with an SSL/TLS certificate (Let's Encrypt) to have https://.**
+* [ ] Secure the connection with an SSL/TLS certificate (Let's Encrypt) to have https://.
 
-**[ ] Configure serving of static files (CSS, images).**
+* [ ] Configure serving of static files (CSS, images).
 
 ### 11. Monitoring and Logging
 
-**[ ] Add simple event logging in the application ("Data fetched", "Post created").**
+* [ ] Add simple event logging in the application ("Data fetched", "Post created").
 
-**[ ] Check Apache logs in Zentyal if something is not working.**
+* [ ] Check Apache logs in Zentyal if something is not working.
 
 ### 12. Security and Backups
 
-**[ ] Configure regular backups of the database and application code (e.g., via a module in Zentyal).**
+* [ ] Configure regular backups of the database and application code (e.g., via a module in Zentyal).
 
-**[ ] Regularly update Python dependencies (pip install --upgrade package_name).**
+* [ ] Regularly update Python dependencies (pip install --upgrade package_name).
