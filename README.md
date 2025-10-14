@@ -13,7 +13,7 @@ An automated blog application that fetches news and price data about Dogecoin an
 
 * **Backend:** Python 3, Flask
 * **Database:** MariaDB
-* **Server:** Zentyal with Apache
+* **Server:** Ubuntu with ngfix
 
 ## Installation
 
