@@ -1,6 +1,6 @@
 # Crypto Event Monitor
 
-An automated blog application that fetches news and price data about Dogecoin and generates blog posts using AI. This project is built for a Zentyal server environment.
+An automated blog application that fetches news and price data about Dogecoin and generates blog posts using AI. This project is built for a Ubuntu server environment.
 
 ## Key Features
 
