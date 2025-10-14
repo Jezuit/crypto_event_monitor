@@ -17,7 +17,7 @@
 
 * Frontend: Python will create HTML pages using Jinja2 templates.
 
-* Database: MariaDB (available in Zentyal).
+* Database: MariaDB.
 
 * [x] **Architecture Planning:**
 
@@ -37,9 +37,9 @@
 
 * [x] Notification Mechanism (SIMPLIFIED): New, generated posts simply appear on the blog's main page as "updates".**
 
-### 2. Zentyal Server Configuration
+### 2. Ubuntu Server Configuration
 
-* [x] **Check Zentyal installation and network configuration.**
+* [x] **Check Ubuntu installation and network configuration.**
 
 * [x] **Create a dedicated system user for the application.**
 
