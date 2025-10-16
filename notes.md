@@ -51,7 +51,7 @@ Created and opened a new configuration file for the site:
 sudo nano dogeblog.local
 ```
 
-## Added the following server block configuration to the empty file. This configuration sets up a reverse proxy:
+Added the following server block configuration to the empty file. This configuration sets up a reverse proxy:
 * listen 80; - Listen on the standard HTTP port.
 * server_name dogeblog.local ...; - Respond to requests for this domain.
 * location / { ... } - For all incoming requests (/)...
