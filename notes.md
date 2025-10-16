@@ -85,3 +85,66 @@ Restarted the Nginx service to apply the new configuration:
 ```
 sudo systemctl restart nginx
 ```
+## MariaDB Server Installation and Configuration
+
+Install the MariaDB server package:
+```
+sudo apt install mariadb-server -y
+```
+
+Run the security script to secure the MariaDB installation:
+```
+sudo mysql_secure_installation
+```
+
+Start and enable the MariaDB service:
+```
+sudo systemctl start mariadb
+```
+
+Access the MariaDB command-line interface:
+```
+sudo mariadb
+```
+
+Create an empty database for the blog application:
+```
+CREATE DATABASE dogeblog_db;
+```
+
+Create a new database user named dogeblog_user with the password mbpadmin:
+```
+CREATE USER 'dogeblog_user'@'localhost' IDENTIFIED BY 'mbpadmin';
+```
+
+Grant the new user full privileges on the new database:
+```
+GRANT ALL PRIVILEGES ON dogeblog_db.* TO 'dogeblog_user'@'localhost';
+```
+
+Reload the grant tables to ensure the new permissions are applied immediately:
+```
+FLUSH PRIVILEGES;
+```
+
+Exit the MariaDB console:
+```
+EXIT;
+```
+## Firewall (UFW) Configuration
+
+Allowed incoming SSH connections to ensure remote access is maintained:
+```
+sudo ufw allow ssh
+```
+
+Allowed incoming web traffic through Nginx using the 'Nginx Full' profile (ports 80 for HTTP and 443 for HTTPS):
+```
+sudo ufw allow 'Nginx Full'
+```
+
+Enabled the firewall to make the rules active:
+```
+sudo ufw enable
+```
+## 
