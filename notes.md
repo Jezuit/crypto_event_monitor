@@ -147,4 +147,66 @@ Enabled the firewall to make the rules active:
 ```
 sudo ufw enable
 ```
-## 
+## Required Software Installation
+
+* Python
+
+Verified that Python 3 was pre-installed by checking its version:
+```
+python3 --version
+```
+
+The output confirmed that Python 3.12.3 was present on the system.
+
+* Pip and venv
+
+Installed pip (the Python package installer) and venv (the module for creating virtual environments):
+```
+sudo apt install python3-pip python3-venv -y
+```
+## Development Environment Setup
+
+Installed Git to manage source code:
+```
+sudo apt install git -y
+```
+
+Created the application directory:
+```
+sudo mkdir -p /var/www/dogeblog
+```
+
+Set the correct ownership for the application directory:
+```
+sudo chown -R dogeblog:dogeblog /var/www/dogeblog
+```
+
+Switched to the dedicated application user:
+```
+sudo su - dogeblog
+```
+
+Navigated into the application's directory:
+```
+cd /var/www/dogeblog
+```
+
+Cloned the project repository into the current directory:
+```
+git clone [https://github.com/Jezuit/crypto_event_monitor.git](https://github.com/Jezuit/crypto_event_monitor.git) .
+```
+
+Created and activated a Python virtual environment:
+```
+python3 -m venv venv
+```
+
+Activated the virtual environment:
+```
+source venv/bin/activate
+```
+
+Installed the project's dependencies using pip:
+```
+pip install -r requirements.txt
+```
