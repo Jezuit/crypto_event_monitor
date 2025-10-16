@@ -53,15 +53,15 @@
 
 * [x] Create a database user with a password and grant it permissions to that database.
 
-* [ ] **Configure Firewall Module:**
+* [x] **Configure Firewall Module:**
 
-* [ ] Allow traffic on HTTP (80) and HTTPS (443) ports so people can access the site.
+* [x] Allow traffic on HTTP (80) and HTTPS (443) ports so people can access the site.
 
-* [ ] **Install necessary software on the server:**
+* [x] **Install necessary software on the server:**
 
-* [ ] Install Python.
+* [x] Install Python.
 
-* [ ] Install pip.
+* [x] Install pip.
 
 ### 3. Development Environment Setup
 
