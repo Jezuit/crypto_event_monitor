@@ -65,11 +65,11 @@
 
 ### 3. Development Environment Setup
 
-* [ ] Initialize a Git repository.
+* [x] Initialize a Git repository.
 
-* [ ] Create a virtual environment for the Python project (venv) to keep project dependencies isolated from the system.
+* [x] Create a virtual environment for the Python project (venv) to keep project dependencies isolated from the system.
 
-* [ ] Install initial project dependencies (pip install Flask).
+* [x] Install initial project dependencies (pip install Flask).
 
 ---
 
